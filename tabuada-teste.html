@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	for (var numeroPrincipal = 1 ; numeroPrincipal < 11; numeroPrincipal++){
+		mostra("Tabuada do " + numeroPrincipal);
+
+		for (var multiplicador = 1; multiplicador < 11; multiplicador++) {
+			mostra (numeroPrincipal + " x " + multiplicador + " = " + (numeroPrincipal*multiplicador));
+
+		}
+	}
+</script>
